@@ -166,11 +166,33 @@ Training Programs
 
         </div>
 
+        <!-- UPCOMING WORKSHOP CALLOUT -->
+        <div class="tp-past-showcase" data-aos="fade-up">
+            <div class="tp-past-content">
+                <h3>
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    Interested in Our Upcoming Training Workshop?
+                </h3>
+                <p>
+                    Registrations are currently open for our July 6th – 10th practical workshop on Drilling Bits & Drilling Assembly Tools. Early bird discounts available.
+                </p>
+            </div>
+            <a href="{{ route('home.training') }}" class="tp-past-btn">
+                <span>View Upcoming Workshop</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+
     </div>
 
 </section>
 
-
 @endsection
-</body>
-</html>

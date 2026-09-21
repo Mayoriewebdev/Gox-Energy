@@ -11,6 +11,27 @@ Training Programs
 
     <div class="tp-container">
 
+        <!-- TABS SWITCHER -->
+        <div class="tp-nav-tabs" data-aos="fade-down">
+            <span class="tp-tab-btn active">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                Upcoming Workshop (July 2026)
+            </span>
+            <a href="{{ route('home.past-training') }}" class="tp-tab-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+                View Past Training Sessions
+                <span class="tp-tab-badge">Archives</span>
+            </a>
+        </div>
+
         <!-- HERO -->
         <div class="tp-hero" data-aos="fade-up">
             <h1 class="tp-title">2 Day Practical Training Workshop on</h1>
@@ -51,7 +72,7 @@ Training Programs
                     </p>
 
                     <p class="tp-text">
-                        <strong>Venue:</strong>  KM 3, Igbo Etche Road, Reveille Yard By Digital Energy Street. 
+                        <strong>Venue:</strong> 1 Digital Energy Close, KM 3 Igbo Etche Road, Off Eleme Junction, Port Harcourt, Rivers State Nigeria.
                     </p>
 
                 </div>
@@ -178,13 +199,35 @@ Training Programs
         </div>
 
 
+        <!-- PAST SESSIONS SHOWCASE CALLOUT -->
+        <div class="tp-past-showcase" data-aos="fade-up">
+            <div class="tp-past-content">
+                <h3>
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    Looking for Previous Training Sessions & Archives?
+                </h3>
+                <p>
+                    See our past workshop records, field engineering modules, hands-on drilling bit analysis, and practical session highlights.
+                </p>
+            </div>
+            <a href="{{ route('home.past-training') }}" class="tp-past-btn">
+                <span>View Past Training Sessions</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+
         <!-- CONTACT -->
         <div class="tp-contact" data-aos="zoom-in">
 
             <h2 class="tp-contact-title">Enquiries & Registration</h2>
 
             <a href="https://wa.me/2349023670870" class="tp-btn tp-btn-primary">
-                Chat on WhatsApp
+                WhatsApp: +234 902 367 0870
             </a>
 
             <a href="mailto:goxdrilling@gmail.com" class="tp-btn tp-btn-outline">
@@ -196,10 +239,6 @@ Training Programs
         </div>
 
     </div>
-
-    <a href="{{ route('home.past-training') }}" class="tp-btn tp-btn-outline">
-        View Past Trainings
-    </a>
 </section>
 
 

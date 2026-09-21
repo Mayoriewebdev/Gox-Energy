@@ -296,14 +296,14 @@
             </div>
 
             <div class="geo-remote-card" data-aos="zoom-in">
-                <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;">
+                <div class="geo-remote-header-wrap">
                     <div>
                         <div class="geo-remote-badge">
                             <span class="pulse-dot"></span>
-                            Calgary, Canada Operations Center — 24/7 Continuous Monitoring
+                            <span>Calgary, Canada Operations Center — 24/7 Continuous Monitoring</span>
                         </div>
-                        <h3 style="color: #ffffff; font-size: 24px; margin-bottom: 8px;">Scope of Real-Time Rigsite Monitoring</h3>
-                        <p style="color: #94a3b8; max-width: 700px; font-size: 15px; margin: 0;">
+                        <h3 class="geo-remote-title">Scope of Real-Time Rigsite Monitoring</h3>
+                        <p class="geo-remote-desc">
                             Our dedicated Remote Operations Team maintains uninterrupted routine surveillance across all client rigsites, delivering proactive engineering recommendations before issues escalate.
                         </p>
                     </div>
@@ -311,37 +311,74 @@
 
                 <div class="geo-scope-grid">
                     <div class="geo-scope-item">
-                        <div class="geo-scope-icon">🔍</div>
+                        <div class="geo-scope-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </div>
                         <p>Monitoring drilling, cementing, testing and all other rig operations workflows in the remote center; detecting anomalies and communicating observations per defined communication protocols.</p>
                     </div>
 
                     <div class="geo-scope-item">
-                        <div class="geo-scope-icon">📊</div>
+                        <div class="geo-scope-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                            </svg>
+                        </div>
                         <p>Analyzing drilling mechanics time logs and providing daily activity summary reports along with comprehensive daily drilling KPI reports.</p>
                     </div>
 
                     <div class="geo-scope-item">
-                        <div class="geo-scope-icon">🎯</div>
+                        <div class="geo-scope-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="6"></circle>
+                                <circle cx="12" cy="12" r="2"></circle>
+                            </svg>
+                        </div>
                         <p>Performing rigorous Data Quality Control (QC) on surface and downhole drilling parameters, environment, and overall rigsite performance.</p>
                     </div>
 
                     <div class="geo-scope-item">
-                        <div class="geo-scope-icon">⚡</div>
+                        <div class="geo-scope-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
                         <p>Diagnosing and analyzing drilling operational issues while providing immediate, actionable mitigation recommendations.</p>
                     </div>
 
                     <div class="geo-scope-item">
-                        <div class="geo-scope-icon">📈</div>
+                        <div class="geo-scope-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                <polyline points="17 6 23 6 23 12"></polyline>
+                            </svg>
+                        </div>
                         <p>Tracking various drilling KPIs and advising rig teams on industry best practices for continuous performance improvement.</p>
                     </div>
 
                     <div class="geo-scope-item">
-                        <div class="geo-scope-icon">⚙️</div>
+                        <div class="geo-scope-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                            </svg>
+                        </div>
                         <p>Monitoring for trend deviations in Real-Time Torque & Drag, Hole Cleaning, and other critical downhole conditions during drilling & tripping.</p>
                     </div>
 
-                    <div class="geo-scope-item" style="grid-column: 1 / -1;">
-                        <div class="geo-scope-icon">🚨</div>
+                    <div class="geo-scope-item geo-scope-item-full">
+                        <div class="geo-scope-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                                <line x1="12" y1="9" x2="12" y2="13"></line>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </div>
                         <p>Alerting appropriate stakeholders and rigsite crews immediately of any deviation from drilling SOPs, guidelines, or potential anomalies and outliers during drilling, tripping, and cementing operations.</p>
                     </div>
                 </div>

@@ -1087,10 +1087,11 @@ Gox Energy
         <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
             <h3>How can I request a quote or speak with GOX Energy?</h3>
             <p>
-                You can contact GOX Energy directly via email to discuss your project requirements.
+                You can contact GOX Energy directly via phone or email to discuss your project requirements.
                 Our technical team will review your needs and provide a tailored solution promptly.
                 <br><br>
-                <strong>Email:</strong> goxdrilling@gmail.com
+                <strong>Email:</strong> goxdrilling@gmail.com<br>
+                <strong>Phone:</strong> +234 902 367 0870
             </p>
         </div>
 
@@ -1241,13 +1242,18 @@ Gox Energy
 
             <div class="contact-info">
                 <div class="info-item">
+                    <img src="{{ asset('assets/images/calls-removebg-preview.png') }}" alt="Phone">
+                    <span>+234 902 367 0870</span>
+                </div>
+
+                <div class="info-item">
                     <img src="{{ asset('assets/images/eamils-removebg-preview.png') }}" alt="Email">
                     <span>goxenergy.com</span>
                 </div>
 
                 <div class="info-item">
                     <img src="{{ asset('assets/images/route-removebg-preview.png') }}" alt="Address">
-                    <span> Revielle Yard @ Km.3 Igbo-Etche Road, By Eleme Junction, Rumukwurushi</span>
+                    <span>1 Digital Energy Close, KM 3 Igbo Etche Road, Off Eleme Junction, Port Harcourt, Rivers State Nigeria.</span>
                 </div>
             </div>
         </div>
