@@ -1,0 +1,105 @@
+/* ===== PREMIUM DIRECTIONAL DRILLING ===== */
+
+.dd-section{
+    padding:100px 6%;
+    background:#fff;
+}
+
+.dd-container{
+    max-width:1150px;
+    margin:auto;
+}
+
+/* HEADER */
+
+.dd-header{
+    text-align:center;
+    max-width:750px;
+    margin:0 auto 60px;
+}
+
+.dd-header h2{
+    font-size:clamp(28px,4vw,40px);
+    color:#111;
+    margin-bottom:18px;
+}
+
+.dd-header p{
+    color:#555;
+    line-height:1.8;
+}
+
+
+/* HERO IMAGE */
+
+.dd-hero-img{
+    margin-bottom:70px;
+}
+
+.dd-hero-img img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+    border-radius:20px;
+}
+
+
+/* SERVICES */
+
+.dd-services{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+
+/* SERVICE ROW */
+
+.dd-service{
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:35px;
+    align-items:center;
+}
+
+/* IMAGE */
+
+.dd-service img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    border-radius:14px;
+}
+
+
+/* TEXT */
+
+.dd-service h3{
+    margin-bottom:8px;
+    font-size:22px;
+    color:#111;
+}
+
+.dd-service p{
+    color:#555;
+    line-height:1.8;
+}
+
+
+/* ===== MOBILE ===== */
+
+@media(max-width:900px){
+
+    .dd-service{
+        grid-template-columns:1fr;
+    }
+
+    .dd-hero-img img{
+        height:260px;
+    }
+
+    .dd-section{
+        padding:70px 5%;
+    }
+
+}

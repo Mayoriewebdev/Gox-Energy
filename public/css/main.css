@@ -1,0 +1,189 @@
+/* ===== AFE CASE STUDY – ISOLATED STYLES ===== */
+
+.afe-casestudy{
+    --afe-oxblood:#5C0A0A;
+    --afe-white:#ffffff;
+    --afe-soft:#f8f3f3;
+    --afe-text:#444;
+    font-family:inherit;
+}
+
+/* LAYOUT */
+
+.afe-wrap{
+    max-width:1200px;
+    margin:auto;
+    padding:80px 6%;
+    display:flex;
+    gap:60px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.afe-narrow{
+    max-width:850px;
+    margin:auto;
+    padding:80px 6%;
+    text-align:center;
+}
+
+/* TYPOGRAPHY */
+
+.afe-title{
+    font-size:40px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.afe-heading{
+    font-size:30px;
+    color:var(--afe-oxblood);
+    margin-bottom:20px;
+}
+
+.afe-lead,
+.afe-text{
+    color:var(--afe-text);
+    line-height:1.7;
+}
+
+.afe-center{
+    text-align:center;
+}
+
+/* HERO */
+
+.afe-hero{
+    background:var(--afe-oxblood);
+}
+
+.afe-hero-content{
+    flex:1 1 420px;
+}
+
+.afe-lead{
+    color:#fff;
+    max-width:520px;
+}
+
+.afe-hero-media{
+    flex:1 1 420px;
+}
+
+.afe-hero-media img{
+    width:100%;
+    border-radius:16px;
+}
+
+/* SECTIONS */
+
+.afe-section{
+    background:var(--afe-white);
+}
+
+.afe-light{
+    background:#fafafa;
+}
+
+.afe-soft{
+    background:var(--afe-soft);
+}
+
+.afe-dark{
+    background:var(--afe-oxblood);
+}
+
+.afe-dark .afe-heading{
+    color:#fff;
+}
+
+/* SPLIT */
+
+.afe-split-media,
+.afe-split-content{
+    flex:1 1 480px;
+}
+
+.afe-split-media img{
+    width:100%;
+    border-radius:16px;
+}
+
+/* LIST */
+
+.afe-list{
+    margin-top:20px;
+    padding-left:18px;
+}
+
+.afe-list li{
+    margin-bottom:10px;
+    color:var(--afe-text);
+}
+
+/* CARDS */
+
+.afe-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:24px;
+    margin-top:40px;
+}
+
+.afe-card{
+    background:#fff;
+    padding:28px;
+    border-radius:14px;
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+    border-left:4px solid var(--afe-oxblood);
+    color: black;
+}
+
+/* RESULTS */
+
+.afe-results{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:22px;
+    width:100%;
+}
+
+.afe-result{
+    background:#fff;
+    color:var(--afe-oxblood);
+    padding:22px;
+    border-radius:12px;
+    font-weight:600;
+    text-align:center;
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+    .afe-wrap,
+    .afe-narrow{
+        padding:60px 5%;
+    }
+
+    .afe-title{
+        font-size:30px;
+    }
+
+    .afe-heading{
+        font-size:24px;
+    }
+}
+
+
+
+.afe-net{
+    color: #5C0A0A;
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,233 @@
+/* ===== GYROTRACER PAGE ===== */
+
+.gyro-page{
+    --ox:#5C0A0A;
+    --soft:#f6f2f2;
+}
+
+/* LAYOUT */
+
+.gyro-container{
+    max-width:1200px;
+    margin:auto;
+    padding:90px 6%;
+    display:flex;
+    align-items:center;
+    gap:70px;
+    flex-wrap:wrap;
+}
+
+.gyro-narrow{
+    max-width:850px;
+    margin:auto;
+    padding:90px 6%;
+    text-align:center;
+}
+
+.gyro-split > *{
+    flex:1 1 480px;
+}
+
+/* HERO */
+
+.gyro-hero{
+    background:var(--ox);
+    color:#fff;
+}
+
+.gyro-hero h1{
+    font-size:44px;
+    margin-bottom:20px;
+}
+
+.gyro-hero-img img{
+    width:100%;
+    border-radius:18px;
+}
+
+/* SECTIONS */
+
+.gyro-section{
+    background:#fff;
+}
+
+.gyro-soft{
+    background:var(--soft);
+}
+
+.gyro-dark{
+    background:var(--ox);
+    color:#fff;
+}
+
+/* GRID */
+
+.gyro-grid{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:24px;
+}
+
+.gyro-card{
+    background:#fff;
+    padding:26px;
+    border-radius:14px;
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+    border-top:4px solid var(--ox);
+    font-weight:600;
+}
+
+/* Features list styling */
+.gyro-features {
+    margin-top: 40px;
+    padding-left: 40px; /* space for numbers/dashes */
+    list-style-type: decimal; /* can be 'decimal', 'disc', or 'circle' */
+    text-align: left;
+}
+
+.gyro-features li {
+    margin-bottom: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #222;
+    position: relative;
+    padding-left: 10px; /* spacing for custom markser */
+}
+
+/* Optional: dashed instead of numbers */
+.gyro-features.dashed {
+    list-style-type: none;
+}
+
+.gyro-features.dashed li::before {
+    content: "–"; /* dash marker */
+    position: absolute;
+    left: -20px;
+    color: var(--ox); /* oxblood red dash */
+    font-weight: bold;
+}
+
+/* Animate items with AOS */
+.gyro-features li[data-aos] {
+    opacity: 0; /* will animate in via AOS */
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .gyro-features {
+        padding-left: 20px;
+    }
+
+    .gyro-features li::before {
+        left: -15px;
+    }
+}
+
+
+/* SPEC BOX */
+
+.gyro-spec-box{
+    background:var(--soft);
+    padding:40px;
+    border-radius:16px;
+}
+
+/* IMAGES */
+
+.gyro-img img{
+    width:100%;
+    border-radius:16px;
+}
+
+/* CTA */
+
+.gyro-cta{
+    background:var(--ox);
+    color:#fff;
+    text-align:center;
+    padding:100px 6%;
+}
+
+.gyro-btn{
+    display:inline-block;
+    margin-top:25px;
+    background:#fff;
+    color:var(--ox);
+    padding:14px 34px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:700;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .gyro-container,
+    .gyro-narrow{
+        padding:70px 5%;
+    }
+
+    .gyro-hero h1{
+        font-size:32px;
+    }
+}
+
+
+
+
+/* ===== FIX TEXT VISIBILITY ===== */
+
+/* Default readable color */
+.gyro-page{
+    color:#222;
+}
+
+/* Headings */
+.gyro-page h1,
+.gyro-page h2,
+.gyro-page h3,
+.gyro-page h4{
+    color:#111;
+}
+
+/* Paragraphs */
+.gyro-page p{
+    color:#444;
+    line-height:1.7;
+}
+
+/* Lists */
+.gyro-page li{
+    color:#444;
+}
+
+/* Ensure white text stays on dark sections */
+.gyro-dark,
+.gyro-hero,
+.gyro-cta{
+    color:#fff;
+}
+
+.gyro-dark h1,
+.gyro-dark h2,
+.gyro-dark h3,
+.gyro-dark p,
+.gyro-dark li,
+.gyro-hero h1,
+.gyro-hero p{
+    color:#fff;
+}
+
+/* Cards must stay dark text */
+.gyro-card{
+    color:#222;
+}
+
+/* Spec box text */
+.gyro-spec-box{
+    color:#333;
+}
+
+

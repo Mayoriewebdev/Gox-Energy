@@ -1,0 +1,125 @@
+/* ===== DRILLING TOOLS RENTALS ===== */
+
+.rt-section{
+    padding:100px 6%;
+    background:#fff;
+}
+
+.rt-container{
+    max-width:1200px;
+    margin:auto;
+}
+
+/* HEADER */
+
+.rt-header{
+    text-align:center;
+    max-width:750px;
+    margin:0 auto 80px;
+}
+
+.rt-header h2{
+    font-size:clamp(28px,4vw,40px);
+    color:#111;
+    margin-bottom:18px;
+}
+
+.rt-header p{
+    color:#555;
+    line-height:1.8;
+}
+
+/* TOOL LAYOUT */
+
+.rt-tool{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+    margin-bottom:90px;
+}
+
+/* REVERSE TOOL */
+.rt-reverse{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.rt-reverse .rt-images{
+    order:2;
+}
+
+.rt-reverse .rt-content{
+    order:1;
+}
+
+/* IMAGES */
+
+.rt-main-img{
+    width:100%;
+    height:340px;
+    object-fit:cover;
+    border-radius:18px;
+    margin-bottom:18px;
+}
+
+.rt-img-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+}
+
+.rt-img-row img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    border-radius:14px;
+}
+
+/* CONTENT */
+
+.rt-content h3{
+    font-size:24px;
+    margin-bottom:10px;
+    color:#111;
+}
+
+.rt-content p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:18px;
+}
+
+.rt-specs{
+    padding-left:20px;
+}
+
+.rt-specs li{
+    margin-bottom:10px;
+    color:#333;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+    .rt-tool{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .rt-reverse{
+        /* just stack normally on mobile */
+    }
+
+    .rt-main-img{
+        height:240px;
+    }
+
+    .rt-section{
+        padding:70px 5%;
+    }
+
+}

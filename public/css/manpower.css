@@ -1,0 +1,253 @@
+/*==================================================
+  MANPOWER PAGE
+===================================================*/
+
+* {
+    box-sizing: border-box;
+}
+
+.service-banner {
+    width: 100% !important;
+    background: #b11226;
+   
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    padding: 130px 20px 110px !important;
+    text-align: center !important;
+}
+
+.service-banner .container {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: auto !important;
+}
+
+.service-banner h1 {
+    color: #fff !important;
+    font-size: 52px !important;
+    font-weight: 700 !important;
+    margin-bottom: 20px !important;
+    line-height: 1.2 !important;
+}
+
+.service-banner p {
+    color: #f5f5f5 !important;
+    max-width: 850px !important;
+    margin: auto !important;
+    font-size: 20px !important;
+    line-height: 1.8 !important;
+}
+
+
+/*============================*/
+
+.service-section {
+    width: 100% !important;
+    padding: 80px 20px !important;
+    background: #f8f9fb !important;
+}
+
+.service-section .container {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: auto !important;
+}
+
+.row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin: 0 -15px !important;
+}
+
+.col-lg-12 {
+    width: 100% !important;
+    padding: 0 15px !important;
+}
+
+.col-md-6 {
+    width: 50% !important;
+    padding: 15px !important;
+}
+
+/*============================*/
+
+.service-section h2 {
+    font-size: 40px !important;
+    color: #111 !important;
+    margin-bottom: 25px !important;
+    position: relative !important;
+}
+
+.service-section h2::after {
+    content: "";
+    width: 90px;
+    height: 4px;
+    background: #b11226;
+    display: block;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.service-section h3 {
+    color: #b11226 !important;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    font-weight: 700 !important;
+}
+
+.service-section p {
+    color: #555 !important;
+    font-size: 17px !important;
+    line-height: 1.9 !important;
+    margin-bottom: 22px !important;
+}
+
+/*============================*/
+
+.service-list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.service-list li {
+    background: #fff !important;
+    margin-bottom: 16px !important;
+    padding: 18px 20px !important;
+    border-left: 5px solid #b11226 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 5px 18px rgba(0,0,0,.08) !important;
+    color: #444 !important;
+    font-size: 16px !important;
+    transition: .35s !important;
+}
+
+.service-list li:hover {
+    transform: translateX(8px) !important;
+    background: #b11226 !important;
+    color: #fff !important;
+}
+
+/*============================*/
+
+hr {
+    border: none !important;
+    height: 1px !important;
+    background: #ddd !important;
+    margin: 60px 0 !important;
+}
+
+/*============================*/
+
+.py-5{
+    padding-top:80px !important;
+    padding-bottom:80px !important;
+}
+
+.mb-3{
+    margin-bottom:20px !important;
+}
+
+.mb-4{
+    margin-bottom:30px !important;
+}
+
+/*==================================================
+TABLET
+===================================================*/
+
+@media (max-width:992px){
+
+.service-banner{
+padding:110px 20px 90px !important;
+}
+
+.service-banner h1{
+font-size:42px !important;
+}
+
+.service-banner p{
+font-size:18px !important;
+}
+
+.service-section h2{
+font-size:34px !important;
+}
+
+.service-section h3{
+font-size:27px !important;
+}
+
+.col-md-6{
+width:100% !important;
+}
+
+}
+
+/*==================================================
+MOBILE
+===================================================*/
+
+@media (max-width:768px){
+
+.service-banner{
+padding:90px 15px 70px !important;
+}
+
+.service-banner h1{
+font-size:34px !important;
+}
+
+.service-banner p{
+font-size:16px !important;
+line-height:1.8 !important;
+}
+
+.service-section{
+padding:60px 15px !important;
+}
+
+.service-section h2{
+font-size:28px !important;
+}
+
+.service-section h3{
+font-size:23px !important;
+}
+
+.service-section p{
+font-size:15px !important;
+}
+
+.service-list li{
+padding:16px !important;
+font-size:15px !important;
+}
+
+}
+
+/*==================================================
+SMALL MOBILE
+===================================================*/
+
+@media (max-width:480px){
+
+.service-banner h1{
+font-size:28px !important;
+}
+
+.service-banner p{
+font-size:15px !important;
+}
+
+.service-section h2{
+font-size:24px !important;
+}
+
+.service-section h3{
+font-size:21px !important;
+}
+
+}
