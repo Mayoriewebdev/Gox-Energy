@@ -1248,7 +1248,7 @@ Gox Energy
 
                 <div class="info-item">
                     <img src="{{ asset('assets/images/eamils-removebg-preview.png') }}" alt="Email">
-                    <span>goxenergy.com</span>
+                    <span>goxdrilling@gmail.com</span>
                 </div>
 
                 <div class="info-item">

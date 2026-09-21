@@ -22,7 +22,7 @@
              <a href="#about">About</a>
              <a href="#product">Product</a>
              <a href="#services">Services</a>
-             <!-- <a href="/training">Training Programs</a> -->
+             <a href="{{ route('home.training') }}">Training</a>
              <a class="btn-primary" href="{{ route('home.demo') }}">
                  <span>Get a Demo</span>
                  <svg class="btn-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
