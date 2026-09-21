@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="{{ asset('css/inspect.css') }}">
      <link rel="stylesheet" href="{{ asset('css/manpower.css') }}">
      <link rel="stylesheet" href="{{ asset('css/demo.css') }}">
+     <link rel="stylesheet" href="{{ asset('css/geoservices.css') }}">
 
 
 </head>

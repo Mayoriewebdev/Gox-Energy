@@ -38,6 +38,16 @@ public function manpower()
     return view('pages.manpower');
 }
 
+public function geomechanics()
+{
+    return view('pages.geomechanics');
+}
+
+public function geosteering()
+{
+    return view('pages.geosteering');
+}
+
 
     
     public function direct(){

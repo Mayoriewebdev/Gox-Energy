@@ -23,3 +23,7 @@ Route::get('get-a-demo', [HomeController::class, 'demo']);
 Route::post('get-a-demo', [HomeController::class, 'storeDemo']);
 Route::get('past-training', [HomeController::class, 'pastTraining'])->name('home.past-training');
 Route::get('manpower', [HomeController::class, 'manpower'])->name('home.manpower');
+Route::get('geomechanics', [HomeController::class, 'geomechanics'])->name('home.geomechanics');
+Route::get('geosteering', [HomeController::class, 'geosteering'])->name('home.geosteering');
+Route::get('wellsite-geology', [HomeController::class, 'geosteering'])->name('home.wellsite');
+Route::get('geomechanics-and-wellsite-geologists', [HomeController::class, 'geomechanics']);

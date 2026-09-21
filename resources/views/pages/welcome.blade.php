@@ -192,7 +192,7 @@ Gox Energy
                     Delivering advanced subsurface analysis and rock mechanics solutions to optimize drilling, and
                     reservoir performance.
                 </p>
-                <a href="#">+ Learn More</a>
+                <a href="{{ route('home.geomechanics') }}">+ Learn More</a>
             </div>
 
             <div class="feature-card">
@@ -200,25 +200,25 @@ Gox Energy
                 <p>
                     Geosteering, reservoir evaluation, geo management, operations & wellsite geology
                 </p>
-                <a href="#">+ Learn More</a>
+                <a href="{{ route('home.geosteering') }}">+ Learn More</a>
             </div>
 
 
             <div class="feature-card">
                 <h3>Drilling Optimization /<br>Software</h3><br>Services
                 <p>
-                    Geosteering, reservoir evaluation, geo management, operations & wellsite geology
+                    Advanced drilling analytics, AFE capital tracking, and digital tools to eliminate hidden NPT
                 </p>
                 <a href="{{ route('home.drilling') }}">+ Learn More</a>
             </div>
 
 
             <div class="feature-card">
-                <h3>GeoSteering &<br>Geological</h3><br>Services
+                <h3>Wellsite Geology &<br>Subsurface</h3><br>Services
                 <p>
-                    Geosteering, reservoir evaluation, geo management, operations & wellsite geology
+                    High-precision well placement, sweet-spot pay-zone exposure, and real-time geological decision-making
                 </p>
-                <a href="#">+ Learn More</a>
+                <a href="{{ route('home.geosteering') }}">+ Learn More</a>
             </div>
 
 
