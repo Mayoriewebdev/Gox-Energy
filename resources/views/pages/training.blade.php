@@ -184,7 +184,7 @@ Training Programs
             <h2 class="tp-contact-title">Enquiries & Registration</h2>
 
             <a href="https://wa.me/2349023670870" class="tp-btn tp-btn-primary">
-                WhatsApp: +234 902 367 0870
+                Chat on WhatsApp
             </a>
 
             <a href="mailto:goxdrilling@gmail.com" class="tp-btn tp-btn-outline">

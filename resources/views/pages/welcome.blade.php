@@ -167,24 +167,24 @@ Gox Energy
                 <p>
                     Unbiased supervision, drilling & tool review—direct to operator
                 </p>
-                <a href="#">+ Learn More</a>
+                <a href="{{ route('home.directional') }}">+ Learn More</a>
             </div>
 
             <div class="feature-card">
-                <h3>Remote Drilling<br>& Steering</h3>
+                <h3>Wellbore<br>Surveying</h3>
                 <p>
-                    Setup, staffing and execution of Real-Time Operations Centers (RTOCs)
+                    Precision wellbore surveying services utilizing advanced technology to ensure accurate positioning and trajectory control throughout the drilling process.
                 </p>
-                <a href="#">+ Learn More</a>
+                <a href="{{ route('home.wellbore') }}">+ Learn More</a>
             </div>
 
-            <div class="feature-card">
+            <!-- <div class="feature-card">
                 <h3>In-House<br>Expertise</h3>
                 <p>
                     Dedicated oil & gas professionals with over 150 years of collective experience
                 </p>
                 <a href="#">+ Learn More</a>
-            </div>
+            </div> -->
 
             <div class="feature-card">
                 <h3>Geomechanics <br>Services</h3>
@@ -205,9 +205,10 @@ Gox Energy
 
 
             <div class="feature-card">
-                <h3>Drilling Optimization /<br>Software</h3><br>Services
+                <h3>Drilling Optimization &<br>Software</h3>
                 <p>
-                    Advanced drilling analytics, AFE capital tracking, and digital tools to eliminate hidden NPT
+                    Advanced drilling optimization solutions and completions software to enhance operational efficiency,
+                    reduce costs, and improve performance metrics.
                 </p>
                 <a href="{{ route('home.drilling') }}">+ Learn More</a>
             </div>
@@ -223,13 +224,40 @@ Gox Energy
 
 
             <div class="feature-card">
-                <h3>Manpower<br>Supply</h3><br>
+                <h3>Manpower<br>Supply</h3>
                 <p>
                     We supply qualified, experienced, and certified personnel for drilling and oilfield operations,
                     delivering reliable workforce solutions tailored to meet project requirements safely and
                     efficiently.
                 </p>
                 <a href="{{ route('home.manpower') }}">+ Learn More</a>
+            </div>
+
+            <div class="feature-card">
+                <h3>Bit Supply &<br>Drilling Tools Rentals</h3>
+                <p>
+                    Comprehensive supply of drilling bits and rental services for mud motors, NMDC, stabilizers, and
+                    other essential drilling tools.
+                </p>
+                <a href="{{ route('home.bitsupply') }}">+ Learn More</a>
+            </div>
+
+            <div class="feature-card">
+                <h3>Inspections & Drilling<br>Tubular Repairs</h3>
+                <p>
+                    Professional inspection services and machine shop capabilities for drilling tubular repairs,
+                    ensuring equipment integrity and operational safety.
+                </p>
+                <a href="{{ route('home.inspection') }}">+ Learn More</a>
+            </div>
+
+            <div class="feature-card">
+                <h3>Oil & Gas<br>Training Programs</h3>
+                <p>
+                    Comprehensive training and capacity building programs designed to develop industry professionals
+                    with practical and theoretical knowledge.
+                </p>
+                <a href="{{ route('home.training') }}">+ Learn More</a>
             </div>
 
         </div>
@@ -316,21 +344,21 @@ Gox Energy
 <section class="section services-section">
     <div class="container" data-aos="fade-up">
 
-        <!-- Section Heading -->
-        <div class="section-header">
-            <!-- <div class="section-line"></div> -->
+     
+        <!-- <div class="section-header">
+          
             <h2>Comprehensive Energy Solutions</h2>
-            <!-- <div class="mv-line"></div> -->
+           
             <p>
                 Delivering world-class directional drilling, wellbore surveying, and training services to the global
                 oil and gas industry with cutting-edge technology and unmatched expertise
             </p>
         </div>
 
-        <!-- Services Grid -->
+    
         <div class="services-grid">
 
-            <!-- Service Card -->
+           
             <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-icon">
                     <img src="{{ asset('assets/images/drfr.png') }}" alt="Directional Drilling">
@@ -438,7 +466,7 @@ Gox Energy
                 <a href="{{ route('home.training') }}">Learn More →</a>
             </div>
 
-        </div>
+        </div> -->
 
         <!-- Stats -->
         <div class="services-stats">
@@ -1059,11 +1087,10 @@ Gox Energy
         <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
             <h3>How can I request a quote or speak with GOX Energy?</h3>
             <p>
-                You can contact GOZ Energy directly via phone or email to discuss your project requirements.
+                You can contact GOX Energy directly via email to discuss your project requirements.
                 Our technical team will review your needs and provide a tailored solution promptly.
                 <br><br>
-                <strong>Email:</strong> goxdrilling@gmail.com<br>
-                <strong>Phone:</strong> +234 807 134 9030, +234 902 367 0870
+                <strong>Email:</strong> goxdrilling@gmail.com
             </p>
         </div>
 
@@ -1213,11 +1240,6 @@ Gox Energy
             </a>
 
             <div class="contact-info">
-                <div class="info-item">
-                    <img src="{{ asset('assets/images/calls-removebg-preview.png') }}" alt="Phone">
-                    <span>+234 902 367 0870</span>
-                </div>
-
                 <div class="info-item">
                     <img src="{{ asset('assets/images/eamils-removebg-preview.png') }}" alt="Email">
                     <span>goxenergy.com</span>
