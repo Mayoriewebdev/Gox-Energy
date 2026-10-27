@@ -196,7 +196,7 @@ Gox Energy
             </div>
 
             <div class="feature-card">
-                <h3>GeoSteering &<br>Geological</h3><br>Services
+                <h3>GeoSteering &<br>Geological Services</h3>
                 <p>
                     Geosteering, reservoir evaluation, geo management, operations & wellsite geology
                 </p>
@@ -215,7 +215,7 @@ Gox Energy
 
 
             <div class="feature-card">
-                <h3>Wellsite Geology &<br>Subsurface</h3><br>Services
+                <h3>Wellsite Geology &<br>Subsurface Services</h3>
                 <p>
                     High-precision well placement, sweet-spot pay-zone exposure, and real-time geological decision-making
                 </p>

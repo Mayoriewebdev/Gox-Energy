@@ -2725,6 +2725,23 @@ body {
 @media (max-width: 900px) {
   .feature-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .feature-card {
+    height: auto;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .feature-card p {
+    flex-grow: 1;
+  }
+
+  .feature-card a {
+    margin-top: auto;
   }
 }
 
@@ -2735,10 +2752,35 @@ body {
 
   .feature-grid {
     grid-template-columns: 1fr;
+    gap: 25px;
   }
 
   .feature-card {
-    padding: 30px 25px;
+    height: auto;
+    min-height: auto;
+    padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .feature-card h3 {
+    font-size: 22px;
+    margin-bottom: 14px;
+    line-height: 1.3;
+  }
+
+  .feature-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+    flex-grow: 1;
+  }
+
+  .feature-card a {
+    font-size: 17px;
+    margin-top: auto;
+    display: inline-block;
   }
 }
 
